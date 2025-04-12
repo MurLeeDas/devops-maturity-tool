@@ -1,0 +1,26 @@
+{
+  "name": "devops-maturity-tool",
+  "version": "1.0.0",
+  "description": "Tool to assess the DevOps maturity model",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurLeeDas/devops-maturity-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MurLeeDas/devops-maturity-tool/issues"
+  },
+  "homepage": "https://github.com/MurLeeDas/devops-maturity-tool#readme",
+  "dependencies": {
+    "jspdf": "^3.0.1"
+  }
+}
