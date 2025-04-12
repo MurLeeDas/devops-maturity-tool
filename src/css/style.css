@@ -1,0 +1,281 @@
+/* Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .intro h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Question Cards */
+  .question-card {
+    background: #ffffff;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .question-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .question-card label {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+  }
+  
+  .question-card select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .question-card select:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Progress Bar */
+  .progress-container {
+    margin: 2rem 0;
+  }
+  
+  #progress-bar {
+    height: 12px;
+    background: #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #progress-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  #progress-text {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  /* Buttons */
+  button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+/* Submit Button Fix */
+#submit-btn {
+    margin-top: 2rem;
+    background: #2563eb;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#submit-btn:hover {
+    background: #1d4ed8;
+}
+
+/* Bullet Styling */
+.bullet {
+    color: #2563eb;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.strengths .bullet {
+    color: #10b981;
+}
+
+/* Results Section */
+.hidden {
+    display: none;
+}
+
+/* Select Dropdown Styling */
+select:required:invalid {
+    color: #64748b;
+}
+option[value=""][disabled] {
+    display: none;
+}
+option {
+    color: #1e293b;
+}
+  
+  #generate-pdf-btn {
+    background: #2196F3;
+    color: white;
+    margin: 2rem auto;
+    width: auto;
+    padding: 12px 30px;
+  }
+  
+  #generate-pdf-btn:hover {
+    background: #1976D2;
+  }
+  
+  /* Results Section */
+  #results-section {
+    text-align: center;
+  }
+  
+  .score-container {
+    margin: 2rem 0;
+  }
+  
+  .score-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#4CAF50 0% 81%, #e0e0e0 81% 100%);
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+    position: relative;
+}
+
+.score-circle::before {
+    content: attr(data-percent);
+    position: absolute;
+}
+  
+  @keyframes popIn {
+    0% { transform: scale(0); }
+    90% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  /* Notification Popup */
+  #notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  
+  #notification.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  /* Progress bar alignment */
+.progress-container {
+    margin: 2rem auto; /* Center the bar */
+    width: 80%;
+  }
+  
+.recommendations ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recommendations li {
+    padding: 10px 15px;
+    margin: 8px 0;
+    background: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Keep only the CSS-generated arrow */
+.recommendations li::before {
+    content: "→";
+    color: #2563eb;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Remove bullets from strengths */
+.strengths ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.strengths li::before {
+    content: "✓";
+    color: #10b981;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* PDF-friendly styles */
+@media print {
+    .strengths li::before, 
+    .recommendations li::before {
+        content: "" !important;
+    }
+}
