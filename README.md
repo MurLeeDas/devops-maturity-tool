@@ -1,4 +1,4 @@
-# ![alt text](devops.png) DevOps Maturity Assessment Tool
+# 🧰 DevOps Maturity Assessment Tool 🛠️
 
 [![GitHub License](https://img.shields.io/github/license/murleedas/devops-maturity-tool)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/murleedas/devops-maturity-tool)](https://github.com/murleedas/devops-maturity-tool/issues)
