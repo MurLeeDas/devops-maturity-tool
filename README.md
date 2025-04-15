@@ -168,8 +168,9 @@ Edit src/css/style.css:
 - Inspired by DORA metrics
 - UI components from Open Props
 
-**Created by Murali Doss** - 📧 [muralidoss@outlook.com]
-**Live Demo:** [https://murleedas.github.io/devops-maturity-tool]
+**Created by Murali Doss** - 📧 [MailTo](muralidoss@outlook.com)
+
+**Live Demo:** [Click to Start Assessment](https://murleedas.github.io/devops-maturity-tool)
 
 **⚠️ Note: Results should be validated with engineering teams**
 
