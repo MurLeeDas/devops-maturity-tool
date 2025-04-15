@@ -168,7 +168,7 @@ Edit src/css/style.css:
 - Inspired by DORA metrics
 - UI components from Open Props
 
-**Created by Murali Doss** - 📧 [MailTo](muralidoss@outlook.com)
+**Created by Murali Doss** - 📧 [muralidoss@outlook.com](muralidoss@outlook.com)
 
 **Live Demo:** [Click to Start Assessment](https://murleedas.github.io/devops-maturity-tool)
 
