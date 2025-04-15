@@ -1,4 +1,4 @@
-# 🚀 DevOps Maturity Assessment Tool
+# ![alt text](devops.png) DevOps Maturity Assessment Tool
 
 [![GitHub License](https://img.shields.io/github/license/murleedas/devops-maturity-tool)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/murleedas/devops-maturity-tool)](https://github.com/murleedas/devops-maturity-tool/issues)
@@ -168,8 +168,8 @@ Edit src/css/style.css:
 - Inspired by DORA metrics
 - UI components from Open Props
 
-**Created by Murali Doss** - 📧 [muralidoss-email](muralidoss@outlook.com)
-**Live Demo:** [demo-link](https://murleedas.github.io/devops-maturity-tool/)
+**Created by Murali Doss** - 📧 [muralidoss@outlook.com]
+**Live Demo:** [https://murleedas.github.io/devops-maturity-tool]
 
 **⚠️ Note: Results should be validated with engineering teams**
 
